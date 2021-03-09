@@ -8,32 +8,29 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    title: 'Yoga',
+    imageUrl: 'img/undraw_yoga.svg',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Learn everything about Yoga! Yoga is an extensive set of philosophical methods and activities aimed at integrating the mind, body, and spirit into the world in order to achieve a state of enlightenment or harmony.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    title: 'Choose Your Level',
+    imageUrl: 'img/undraw_choose.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+       Dont worry if you are a beginner. You can easily choose your level and start learning!
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Get Inspired',
+    imageUrl: 'img/undraw_blogging.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        You can read and connect with vast community of people practicing yoga from our blog feature.
       </>
     ),
   },
@@ -71,7 +68,7 @@ function Home() {
                 'button button--outline button--secondary button--lg',
                 styles.getStarted,
               )}
-              to={useBaseUrl('docs/')}>
+              to={useBaseUrl('docs/intro')}>
               Get Started
             </Link>
           </div>

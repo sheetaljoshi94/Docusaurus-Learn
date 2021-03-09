@@ -1,6 +1,6 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
+  title: 'Stay Healthy',
+  tagline: 'Live.Love.Yoga!',
   url: 'https://your-docusaurus-test-site.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -10,16 +10,16 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'Stay Healthy',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'SH Logo',
+        src: 'img/logo.png',
       },
       items: [
         {
           to: 'docs/',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Learn',
           position: 'left',
         },
         {to: 'blog', label: 'Blog', position: 'left'},
@@ -34,50 +34,34 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'About Us',
           items: [
             {
-              label: 'Style Guide',
+              label: 'Contact',
               to: 'docs/',
             },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
+           
           ],
         },
         {
           title: 'Community',
+         
           items: [
             {
-              label: 'Stack Overflow',
+              label: 'Instagram',
               href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+             
             },
+            
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
+              label: 'Youtube',
               href: 'https://twitter.com/docusaurus',
             },
           ],
         },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
+       
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Stay Healthy.`,
     },
   },
   presets: [
